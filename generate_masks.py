@@ -4,8 +4,8 @@ import numpy as np
 from tqdm import tqdm
 
 # Path to the dataset
-DATASET_DIR = r'C:/CINNAMON/Cinnamon App/cinnamon_quality/dataset'
-MASKS_DIR = r'C:/CINNAMON/Cinnamon App/cinnamon_quality/dataset/masks'
+DATASET_DIR = r'path to the dataset'
+MASKS_DIR = r'path to the dataset/masks'
 
 # Quality categories
 QUALITY_CLASSES = ['Extra_Special_Quality', 'High_Quality', 'Medium_Quality', 'Low_Quality']
