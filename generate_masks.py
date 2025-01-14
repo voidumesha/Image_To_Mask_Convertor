@@ -4,8 +4,8 @@ import numpy as np
 from tqdm import tqdm
 
 # Path to the dataset
-image_dir = 'dataset/images/path to your images'
-mask_dir = 'dataset/masks/ path to your masks'
+DATASET_DIR = 'dataset/images/path to your images'
+MASKS_DIR = 'dataset/masks/ path to your masks'
 
 # Quality categories
 QUALITY_CLASSES = ['Extra_Special_Quality', 'High_Quality', 'Medium_Quality', 'Low_Quality']
